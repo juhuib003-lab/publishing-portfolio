@@ -1,0 +1,1823 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 아이콘 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- 웹폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <!-- 구글폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Jua&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap" rel="stylesheet">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+    <!-- AOS의 css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/popl22.css">
+    <title>완벽한 한끼식단 허닭</title>
+</head>
+<body>
+    <!-- AOS의 js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+
+    <div id="wrap">
+        <header>
+            <nav>
+                <!-- 모바일버전 -->
+                <div class="mm22">
+                    <i class="fa-solid fa-xmark"></i>
+                    <div class="new22">
+                        <span class="btnbox">
+                            <input type="text" title="검색어 입력" placeholder="검색어를 입력해주세요." id ="btnbox11">
+                        </span>
+                        <span class="btnsch">
+                            <input type="image" src="./img/free-icon-magnifying-glass-49116.png" id ="btnsch11">
+                        </span>
+                        <a href="#">로그인</a>
+                        <a href="#">회원가입</a>
+                        <a href="#"class="cirmom"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니"><div class="cir">0</div></a>
+                        <a href="#"><img src="./img/free-icon-user-747376.png" alt="마이페이지 이미지"></a>
+                    </div> 
+        
+                    <!-- 모바일 버전 메뉴바 -->
+                    <ul class="menumom22">
+                        <li>
+                            <a href="#" class="big22">전체 카테고리</a>
+                            <ul class="sbmenu22">
+                                <li>
+                                    <a href="#">샐러드, 도시락, 볶음밥</a>
+                                </li>
+                                <li>
+                                    <a href="#">닭가슴살</a>
+                                </li>
+                                <li>
+                                    <a href="#">밥, 면</a>
+                                </li>
+                                <li>
+                                    <a href="#">간편요리, 반찬</a>
+                                </li>
+                                <li>
+                                    <a href="#">건강식,음료</a>
+                                </li>
+                                <li>
+                                    <a href="#">단백질,시리얼, 간식</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="big22">베스트</a>
+                            <ul class="sbmenu22">
+                                <li>
+                                    <a href="#">[추천] 닭가슴살</a>
+                                </li>
+                                <li>
+                                    <a href="#">[HOT] 닭다리살</a>
+                                </li>
+                                <li>
+                                    <a href="#">[추천] MD PICK</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="big22">타임특가</a>
+                            <ul class="sbmenu22">
+                                <li>
+                                    <a href="#">허닭</a>
+                                </li>
+                                <li>
+                                    <a href="#">허닭프렌즈</a>
+                                </li>
+                                <li>
+                                    <a href="#">입점브랜드</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="big22">1팩 담기</a>
+                            <ul class="sbmenu22">
+                                <li>
+                                    <a href="#">닭가슴살</a>
+                                </li>
+                                <li>
+                                    <a href="#">소시지</a>
+                                </li>
+                                <li>
+                                    <a href="#">스테이크/큐브</a>
+                                </li>
+                                <li>
+                                    <a href="#">라이스</a>
+                                </li>
+                                <li>
+                                    <a href="#">도시락</a>
+                                </li>
+                                <li>
+                                    <a href="#">만두/간식</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="big22">닭가슴살</a>
+                            <ul class="sbmenu22">
+                                <li>
+                                    <a href="#">닭가슴살</a>
+                                </li>
+                                <li>
+                                    <a href="#">큐브</a>
+                                </li>
+                                <li>
+                                    <a href="#">소시지</a>
+                                </li>
+                                <li>
+                                    <a href="#">만두</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="big22">볶음밥/도시락</a>
+                            <ul class="sbmenu22">
+                                <li>
+                                    <a href="#">볶음밥</a>
+                                </li>
+                                <li>
+                                    <a href="#">도시락</a>
+                                </li>
+                                <li>
+                                    <a href="#">주먹밥/김밥</a>
+                                </li>
+                                <li>
+                                    <a href="#">죽/즉석밥</a>
+                                </li>
+                                <li>
+                                    <a href="#">파기름</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="big22">정기구독</a>
+                            <ul class="sbmenu22">
+                                <li>
+                                    <a href="#">허닭</a>
+                                </li>
+                                <li>
+                                    <a href="#">프레시지</a>
+                                </li>
+                                <li>
+                                    <a href="#">네네치킨X오빠닭</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- pc모바일 버전 로고,bar -->
+                <div class="pctoplogo">
+                    <img src="./img/ico_logo.png" alt="로고">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <!-- 메뉴바 -->
+                <div class="menubar">
+                    <!-- 로그인/회원가입 -->
+                    <div class="top">
+                        <div class="topinner">
+                            <p>
+                                <a href="#" class="fi">다이어트신</a>|
+                                <a href="#" class="rs">허닭</a>
+                            </p>
+                            <p>
+                                <a href="#">로그인</a>| 
+                                <a href="#">회원가입</a>| 
+                                <a href="#">비회원주문조회</a>| 
+                                <a href="#">즐겨찾기</a>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- pc 메뉴바 -->
+                    <div class="tptpmom">
+                        <div class="tptp">
+                            <img src="./img/ico_logo.png" alt="허닭 로고1 이미지" class="rogo">
+                            <div class="new">
+                                <span class="btnbox">
+                                    <input type="text" title="검색어 입력" placeholder="검색어를 입력해주세요." id ="btnbox1">
+                                </span>
+                                <span class="btnsch">
+                                    <input type="image" src="./img/free-icon-magnifying-glass-49116.png" id ="btnsch1">
+                                </span>
+                                <a href="#"class="cirmom"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니" ><div class="cir">0</div></a>
+                                <a href="#"><img src="./img/free-icon-user-747376.png" alt="마이페이지 이미지"></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="mm1">
+                        <div class="menubar1">
+                            <ul>
+                                <a href="#" class="main">
+                                    <p>
+                                        <img src="./img/bar.png" alt="메뉴바 이미지">
+                                        전체 카테고리
+                                    </p>
+                                </a>
+                            </ul>
+                            <ul class="menumom">
+                                <li>
+                                    <a href="#" class="big">베스트</a>
+                                    <ul class="sbmenu">
+                                        <li>
+                                            <a href="#">[추천] 닭가슴살</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">[HOT] 닭다리살</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">[추천] MD PICK</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="big">타임특가</a>
+                                    <ul class="sbmenu">
+                                        <li>
+                                            <a href="#">허닭</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">허닭프렌즈</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">입점브랜드</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="big">1팩 담기</a>
+                                    <ul class="sbmenu">
+                                        <li>
+                                            <a href="#">닭가슴살</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">소시지</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">스테이크/큐브</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">라이스</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">도시락</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">만두/간식</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="big">닭가슴살</a>
+                                    <ul class="sbmenu">
+                                        <li>
+                                            <a href="#">닭가슴살</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">큐브</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">소시지</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">만두</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="big">볶음밥/도시락</a>
+                                    <ul class="sbmenu">
+                                        <li>
+                                            <a href="#">볶음밥</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">도시락</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">주먹밥/김밥</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">죽/즉석밥</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">파기름</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="big">정기구독</a>
+                                    <ul class="sbmenu">
+                                        <li>
+                                            <a href="#">허닭</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">프레시지</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">네네치킨X오빠닭</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- 슬라이드 -->
+                <div class="slidesnew">
+                    <div class="slidemenu12">
+                        <ul class="sbmenu12">
+                            <li>
+                                <a href="#">샐러드, 도시락, 볶음밥</a>
+                            </li>
+                            <li>
+                                <a href="#">닭가슴살</a>
+                            </li>
+                            <li>
+                                <a href="#">간편요리, 반찬</a>
+                            </li>
+                            <li>
+                                <a href="#">건강식, 음료</a>
+                            </li>
+                            <li>
+                                <a href="#">단백질, 시리얼, 간식</a>
+                            </li>
+                            <li>
+                                <a href="#">베이커리, 떡</a>
+                            </li>
+                            <li>
+                                <a href="#">분식, 만두, 치킨</a>
+                            </li>
+                            <li>
+                                <a href="#">건강, 다이어트</a>
+                            </li>
+                            <li>
+                                <a href="#">건강 간식</a>
+                            </li>
+                            <li>
+                                <a href="#">주먹밥/김밥</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 슬라이드바 내용 -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper swslide">
+                        <div class="swiper-slide slide s1">
+                            <div>
+                                <img src="./img/mark.png" alt="허닭과 오뚜기 마크">
+                                <p>
+                                    식단관리도 가뿐하게! <br>
+                                    <span>오뚜기 닭가슴살 카레 런칭 특가</span>
+                                </p>
+                                <a href="#">UP TO53%</a>
+                                <a href="#">전부 무료배송</a>
+                                <a href="#">간편식</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide s2">
+                            <div>
+                                <p>
+                                    <span class="siga">SIGNATUREBELL</span><br>
+                                    딱, 일주일간 오픈 특가! <br>
+                                    <span>식단관리 도시락 골라담기</span>
+                                </p>
+                                <a href="#">UP TO 30%</a>
+                                <a href="#">골라담기</a>
+                                <a href="#">무료배송</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide s3">
+                            <div>
+                                <p>Hello Eats</p>
+                                <p>저칼로리 식단관리 도시락 <br><span>초특가 쿠폰EVENT</span></p>
+                                <a href="#">팩 당2,800원대</a>
+                                <a href="#">무료배송</a>
+                                <a href="#">선착순 쿠폰</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn5mom">
+                        <div class="swiper-button-next btnr5"></div>
+                        <div class="swiper-button-prev btnl5"></div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="content">
+            <div class="content_inner">
+                 <!-- 오늘의 타임딜부분 -->
+                <div class="menuname">
+                    <div>
+                        <i class="fa-regular fa-clock time"></i>
+                        <p>오늘의 타임딜</p>
+                    </div>
+                </div>
+                <div class="my10mom">
+                    <div class="menu swiper mysw10">
+                        <div class="inner swiper-wrapper">
+                            <div class="swiper-slide time">
+                                <div class="imgcove img1">
+                                    <img src="./img/timeimg1.jpg" alt="타임딜부분의 이미지">
+                                    <div class="sale">
+                                        <p>sale</p>
+                                        <img src="./img/marrrrrrr.png" alt="sale 마크">
+                                    </div>
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="covetext2">
+                                    <div class="bask">
+                                        <p>
+                                            [이벤트] 허닭 스테이크 28종 5팩 골라담기
+                                        </p>
+                                    </div>
+                                    <span class="num">35%</span>할인
+                                    <del class="num33">7,500원</del>
+                                    <span class="num2">4,900원</span>
+                                </div> 
+                            </div>
+            
+                            <div class="swiper-slide time">
+                                <div class="imgcove img2">
+                                    <img src="./img/timeimg2.jpg" alt="타임딜부분의 이미지">
+                                    <div class="sale">
+                                        <p>sale</p>
+                                        <img src="./img/marrrrrrr.png" alt="sale 마크">
+                                    </div>
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="covetext2">
+                                    <div class="bask">
+                                        <p>[브랜드닭] ★임박특가★ 훈제 닭가슴살 2종 1팩 골라담기 (어니언/스파이시)</p>
+                                    </div>
+                                    <span class="num">64%</span>할인
+                                    <del class="num33">2,500원</del>
+                                    <span class="num2">890원</span>
+                                </div>    
+                            </div>
+            
+                            <div class="swiper-slide time">
+                                <div class="imgcove img3">
+                                    <img src="./img/timeimg3.jpg" alt="타임딜부분의 이미지">
+                                    <div class="sale">
+                                        <p>sale</p>
+                                        <img src="./img/marrrrrrr.png" alt="sale 마크">
+                                    </div>
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="covetext2">
+                                    <div class="bask">
+                                        <p>[허닭] 닭가슴살 패키지 스테이크/소스/한입 ★전자레인지 용기 증정★</p>
+                                    </div>
+                                    <span class="num">50%</span>할인
+                                    <del class="num33">40,000원</del>
+                                    <span class="num2">19,900원</span>
+                                </div>
+                            </div>
+            
+                            <div class="swiper-slide time">
+                                <div class="imgcove img4">
+                                    <img src="./img/timeimg4.jpg" alt="타임딜부분의 이미지">
+                                    <div class="sale">
+                                        <p>sale</p>
+                                        <img src="./img/marrrrrrr.png" alt="sale 마크">
+                                    </div>
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="covetext2">
+                                    <div class="bask">
+                                        <p>★타임특가★가성비 갑! 프레시지 볶음밥 10종 1만원 골라담기</p>
+                                    </div>
+                                    <span class="num">32%</span>할인
+                                    <del class="num33">14,500원</del>
+                                    <span class="num2">9,900원</span>
+                                </div>
+                            </div>
+            
+                            <div class="swiper-slide time">
+                                <div class="imgcove img5">
+                                    <img src="./img/timeimg5.jpg" alt="타임딜부분의 이미지">
+                                    <div class="sale">
+                                        <p>sale</p>
+                                        <img src="./img/marrrrrrr.png" alt="sale 마크">
+                                    </div>
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="covetext2">
+                                    <div class="bask">
+                                        <p>[허닭] ★1팩990원~★만원의 행복 골라담기</p>
+                                    </div>
+                                    <span class="num">58%</span>할인
+                                    <del class="num33">23,400원</del>
+                                    <span class="num2">9,900원</span>
+                                </div>
+                            </div>
+            
+                            <div class="swiper-slide time">
+                                <div class="imgcove img6">
+                                    <img src="./img/timeimg6.jpg" alt="타임딜부분의 이미지">
+                                    <div class="sale">
+                                        <p>sale</p>
+                                        <img src="./img/marrrrrrr.png" alt="sale 마크">
+                                    </div>
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="covetext2">
+                                    <div class="bask">
+                                        <p>[고백핏] 웜곡물샐러드 3종 골라담기(택1)</p>
+                                    </div>
+                                    <span class="num">30%</span>할인
+                                    <del class="num33">7,900원</del>
+                                    <span class="num2">5,500원</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next btnr3"></div>
+                        <div class="swiper-button-prev btnl3"></div>
+                    </div>
+                </div>
+                <!-- 중간 배너부분 -->
+                <div class="bar22">
+                    <img src="./img/bar2.png" alt="">
+                </div>
+                <!-- 베스트상품 클릭하는 부분 -->
+                <div class="pbox">
+                    <p>가장 많이 팔리는 <span>베스트상품</span></p>
+                </div>
+                <div class="sidemom">
+                    <div class="side">
+                        <div class="si1 sm1" id="si1">
+                            <div>
+                                <img src="./img/goimg1.png" alt="닭가슴살 이미지">
+                            </div>
+                            <p>닭가슴살</p>
+                        </div>
+                        <div class="si1 sm2" id="si1 si2">
+                            <div>
+                                <img src="./img/goimg2.png" alt="볶음밥/도시락 이미지">
+                            </div>
+                            <p>볶음밥/도시락</p>
+                        </div>
+                        <div class="si1 sm3" id="si1">
+                            <div>
+                                <img src="./img/goimg3.png" alt="샐러드/프로틴 이미지">
+                            </div>
+                            <p>샐러드/프로틴</p>
+                        </div>
+                        <div class="si1 sm4" id="si1">
+                            <div>
+                                <img src="./img/goimg4.png" alt="간식/음료 이미지">
+                            </div>
+                            <p>간식/음료</p>
+                        </div>
+                        <div class="si1 sm5" id="si1">
+                            <div>
+                                <img src="./img/goimg5.png" alt="건강/뷰티 이미지">
+                            </div>
+                            <p>건강/뷰티</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 닭가슴살 -->
+                <div class="bestmom">
+                    <div class="swiper Mysw13 best">
+                        <div class="swiper-wrapper bestmom2">
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw1">
+                                    <img src="./img/img11111.jpg" alt="닭가슴살 베스트이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[허닭] 더 부드러운 닭가슴살 1kg 3팩</p>
+                                    </div>
+                                    <del class="num33">62,700원</del>
+                                    <span class="num3">54,900원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw2">
+                                    <img src="./img/img22222.jpg" alt="닭가슴살 베스트이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p> 누구나홀딱반한닭 로스트 한입 닭다리구이 3종 5팩 세트</p>
+                                    </div>
+                                    <del class="num33">22,500원</del>
+                                    <span class="num3">22,500원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw3">
+                                    <img src="./img/img33333.jpg" alt="닭가슴살 베스트이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p> 누구나홀딱반한닭 한입 크런치 닭가슴살 4종 10+10팩 골라담기</p>
+                                    </div>
+                                    <del class="num33">50,000</del>
+                                    <span class="num3">34,900원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw4">
+                                    <img src="./img/img444444.jpg" alt="닭가슴살 베스트이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[허닭] PICK 그릴드 직화 한입 닭가슴살 100g 4종 혼합 20팩</p>
+                                    </div>
+                                    <del class="num33">35,000원</del>
+                                    <span class="num3">33,900원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw5">
+                                    <img src="./img/img55555.jpg" alt="닭가슴살 베스트이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[허닭] 스팀 닭가슴살 100g 2종 혼합 30팩</p>
+                                    </div>
+                                    <del class="num33">45,000원</del>
+                                    <span class="num3">35,900원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw6">
+                                    <img src="./img/img66666.jpg" alt="닭가슴살 베스트이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[더건강한]더건강한 닭가슴살 소시지 꼬치 80g x15개</p>
+                                    </div>
+                                    <del class="num33">30,000원</del>
+                                    <span class="num3">28,900원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw7">
+                                    <img src="./img/img77777.jpg" alt="닭가슴살 베스트이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p> [네네치킨] 네꼬닭 크런치 닭가슴살 90g 4종 5팩</p>
+                                    </div>
+                                    <del class="num33">23,000원</del>
+                                    <span class="num3">13,900원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw8">
+                                    <img src="./img/img888888.jpg" alt="닭가슴살 베스트이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p> 누구나홀딱반한닭 로스트 한입 닭다리구이 100g 5종 1팩 골라담기</p>
+                                    </div>
+                                    <del class="num33">15,000원</del>
+                                    <span class="num3">4,500원</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next btnr4"></div>
+                        <div class="swiper-button-prev btnl4"></div>
+                    </div>
+
+                        
+                    <!-- 볶음밥/도시락 -->
+                    <div class="swiper Mysw14 best" id="sw14">
+                        <div class="swiper-wrapper bestmom2">
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw2_1">
+                                    <img src="./img/img2_1111.jfif" alt="볶음밥/도시락 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[빕스] 볶음밥&스프 5+1 골라담기</p>
+                                    </div>
+                                    <del class="num33">20,000원</del>
+                                    <span class="num3">15,000원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw2_2">
+                                    <img src="./img/img2_2222.jpg" alt="볶음밥/도시락 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[푸라닭] 식단고민러 오세오! 볶음밥&주먹밥 라이스만 5팩 골라담기</p>
+                                    </div>
+                                    <del class="num33">15,000원</del>
+                                    <span class="num3">6,900원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw2_3">
+                                    <img src="./img/img2_33333.jpg" alt="볶음밥/도시락 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[빕스]월드고메 볶음밥 6종 3팩</p>
+                                    </div>
+                                    <del class="num33">20,000원</del>
+                                    <span class="num3">10,500원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw2_4">
+                                    <img src="./img/img2_44444.jpg" alt="볶음밥/도시락 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[포르미] 반칙도시락 8종12팩 다이어트 저칼로리 건강 운동 식단</p>
+                                    </div>
+                                    <del class="num33">85,000원</del>
+                                    <span class="num3">56,400원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw2_5">
+                                    <img src="./img/img2_5555.jpg" alt="볶음밥/도시락 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[프레시지] 프닭 오븐에 구운 속이 꽉찬 주먹밥 8종 5팩</p>
+                                    </div>
+                                    <del class="num33">23,000원</del>
+                                    <span class="num3">11,500원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw2_6">
+                                    <img src="./img/img2_66666.jpg" alt="볶음밥/도시락 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[샐러드보울] 단백질에 집중한 체육관 도시락 4종 3세트</p>
+                                    </div>
+                                    <del class="num33">85,000원</del>
+                                    <span class="num3">71,900원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw2_7">
+                                    <img src="./img/img2_77777.jpg" alt="볶음밥/도시락 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[허닭] 닭가슴살 곤약볶음밥 250g 5종 혼합 10팩</p>
+                                    </div>
+                                    <del class="num33">23,000원</del>
+                                    <span class="num3">19,500원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw2_8">
+                                    <img src="./img/img2_8888.jpg" alt="볶음밥/도시락 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p> 누구나홀딱반한닭 로스트 한입 닭다리구이 100g 5종 1팩 골라담기</p>
+                                    </div>
+                                    <del class="num33">12,000원</del>
+                                    <span class="num3">4,500원</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next btnr6"></div>
+                        <div class="swiper-button-prev btnl6"></div>
+                    </div>
+
+
+                    <!-- 샐러드/프로틴 -->
+                    <div class="swiper Mysw15 best">
+                        <div class="swiper-wrapper bestmom2">
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw3_1">
+                                    <img src="./img/img3_11111.jpg" alt="샐러드/프로틴 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[팜에이트] 대용량 샐러드 1kg 5종 1팩 골라담기</p>
+                                    </div>
+                                    <del class="num33">13,000원</del>
+                                    <span class="num3">9,900원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw3_2">
+                                    <img src="./img/img3_2222.jpg" alt="샐러드/프로틴 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[팜에이트] 간편 소포장 샐러드 2+2 골라담기</p>
+                                    </div>
+                                    <del class="num33">10,000원</del>
+                                    <span class="num3">7,900원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw3_3">
+                                    <img src="./img/img3_3333.jpg" alt="샐러드/프로틴 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p> [리턴라이프] 한통쏙 10가지맛 식사대용 다이어트 한끼 단백질쉐이크</p>
+                                    </div>
+                                    <del class="num33">37,000원</del>
+                                    <span class="num3">26,900원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw3_4">
+                                    <img src="./img/img3_44444.jpg" alt="샐러드/프로틴 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[브랜드닭] 간편 샐러드(250g) 3팩 골라담기</p>
+                                    </div>
+                                    <del class="num33">25,000원</del>
+                                    <span class="num3">21,000원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw3_5">
+                                    <img src="./img/img3_55555.jpg" alt="샐러드/프로틴 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[칼로바이] 퍼펙트파워 프로틴바 단백질바 PROTEIN 10개입</p>
+                                    </div>
+                                    <del class="num33">20,000원</del>
+                                    <span class="num3">12,900원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw3_6">
+                                    <img src="./img/img3_66666.jpg" alt="샐러드/프로틴 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[쉐이크베이비] BCAA 아미노산 L 글루타민 400g</p>
+                                    </div>
+                                    <del class="num33">28,000원</del>
+                                    <span class="num3">22,900원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw3_7">
+                                    <img src="./img/img3_77777.jpg" alt="샐러드/프로틴 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[칼로바이] 퍼펙트 파워쉐이크 아이솔레이트 WPI 유청단백질</p>
+                                    </div>
+                                    <del class="num33">89,000원</del>
+                                    <span class="num3">79,900원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw3_8">
+                                    <img src="./img/img3_88888.jpg" alt="샐러드/프로틴 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[쉐이크베이비] 프로틴바 초코맛 45g x 10개입 1박스</p>
+                                    </div>
+                                    <del class="num33">32,000원</del>
+                                    <span class="num3">22,900원</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next btnr7"></div>
+                        <div class="swiper-button-prev btnl7"></div>
+                    </div>
+
+
+                    <!-- 간식/음료 -->
+                    <div class="swiper Mysw16 best">
+                        <div class="swiper-wrapper bestmom2">
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw4_1">
+                                    <img src="./img/img4_11111.jpg" alt="간식/음료 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[허닭] 아이스 고구마 큐브 10팩</p>
+                                    </div>
+                                    <del class="num33">20,000원</del>
+                                    <span class="num3">15,900원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw4_2">
+                                    <img src="./img/img4_2222.jpg" alt="간식/음료 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[허닭] 미니 군고구마 120g 10팩</p>
+                                    </div>
+                                    <del class="num33">26,000원</del>
+                                    <span class="num3">19,900원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw4_3">
+                                    <img src="./img/img4_33333.jpg" alt="간식/음료 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[자연공유] 단백질이 답이다 (오리지널/스위트) 6봉지</p>
+                                    </div>
+                                    <del class="num33">23,000원</del>
+                                    <span class="num3">11,900원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw4_4">
+                                    <img src="./img/img4_44444.jpg" alt="간식/음료 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[모던구루] 수제 그래놀라 9종 골라담기</p>
+                                    </div>
+                                    <del class="num33">20,000원</del>
+                                    <span class="num3">11,000원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw4_5">
+                                    <img src="./img/img4_55555.jpg" alt="간식/음료 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[인테이크] 닥터넛츠 오리지널 뉴 / 프리미엄 골드 견과선물세트 (상온)</p>
+                                    </div>
+                                    <del class="num33">55,000원</del>
+                                    <span class="num3">42,900원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw4_6">
+                                    <img src="./img/img4_66666.jpg" alt="간식/음료 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[동아오츠카]나랑드사이다 1.5L 페트 12입 1BOX</p>
+                                    </div>
+                                    <del class="num33">21,000원</del>
+                                    <span class="num3">17,600원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw4_7">
+                                    <img src="./img/img4_77777.jpg" alt="간식/음료 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[닥다마켓] 한입 쏙 저칼로리 냉동 고구마 볼 고구마냥 100g 10팩</p>
+                                    </div>
+                                    <del class="num33">36,000원</del>
+                                    <span class="num3">29,000원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw4_8">
+                                    <img src="./img/img4_88888.jpg" alt="간식/음료 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[인테이크] 슈가로로 탄산없는 무설탕 핑크레몬에이드 제로 24병</p>
+                                    </div>
+                                    <del class="num33">36,000원</del>
+                                    <span class="num3">31,500원</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next btnr8"></div>
+                        <div class="swiper-button-prev btnl8"></div>
+                    </div>
+
+                    <!-- 건강/뷰티 -->
+                    <div class="swiper Mysw17 best">
+                        <div class="swiper-wrapper bestmom2">
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw5_1">
+                                    <img src="./img/img5_1111.jpg" alt="건강/뷰티 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[종근당건강] 하루한알 오메가3 골드업 180정 6개월분 + 선물용 쇼핑백</p>
+                                    </div>
+                                    <del class="num33">32,000원</del>
+                                    <span class="num3">28,900원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw5_2">
+                                    <img src="./img/img5_22222.jpg" alt="건강/뷰티 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[대상웰라이프] 하루한알 메이크미 간건강 밀크씨슬 1개월분</p>
+                                    </div>
+                                    <del class="num33">12,000원</del>
+                                    <span class="num3">8,900원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw5_3">
+                                    <img src="./img/img5_33333.jpg" alt="건강/뷰티 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[삼대오백] 모노 하이드레이트 크레아틴 300g</p>
+                                    </div>
+                                    <del class="num33">20,000원</del>
+                                    <span class="num3">22,900원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw5_4">
+                                    <img src="./img/img5_44444.jpg" alt="건강/뷰티 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[인테이크] 뮤즈해빗 169 아임파인 곡물효소 /상큼한 파인애플맛 (상온)</p>
+                                    </div>
+                                    <del class="num33">28,000원</del>
+                                    <span class="num3">22,900원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw5_5">
+                                    <img src="./img/img5_55555.jpg" alt="건강/뷰티 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[청담할머니] 소화 효소워터 체지방컷 청담할머니 골드워터1box 14개입</p>
+                                    </div>
+                                    <del class="num33">24,000원</del>
+                                    <span class="num3">14,200원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw5_6">
+                                    <img src="./img/img5_6666.jpg" alt="건강/뷰티 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[프로텍트레이디7] ★1+1★ 하루한알 30억 레이디 유산균</p>
+                                    </div>
+                                    <del class="num33">91,000원</del>
+                                    <span class="num3">66,900원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw5_7">
+                                    <img src="./img/img5_7777.jpg" alt="건강/뷰티 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[인테이크] 뮤즈해빗 부스터 레몬콜라 5200 L-아르기닌/고함량(상온)</p>
+                                    </div>
+                                    <del class="num33">30,000원</del>
+                                    <span class="num3">24,900원</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swside">
+                                <div class="sw13cove sw5_8">
+                                    <img src="./img/img5_88888.jpg" alt="건강/뷰티 이미지">
+                                    <div class="sing">
+                                        <a href="#" class="shopping"><img src="./img/free-icon-shopping-basket-7790666.png" alt="바구니 이미지"></i></a>
+                                    </div>
+                                </div>
+                                <div class="swcovetext">
+                                    <div class="bask">
+                                        <p>[인테이크] 뮤즈해빗 169 아임초코 곡물효소 / 달달한 초코 제T맛 (상온)</p>
+                                    </div>
+                                    <del class="num33">35,000원</del>
+                                    <span class="num3">22,900원</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next btnr9"></div>
+                        <div class="swiper-button-prev btnl9"></div>
+                    </div>
+                </div>
+                <!-- 허닭 리뷰보러가기 -->
+                <div class="review swiper Mysw18">
+                    <a href="#">리뷰 보러가기></a>
+                    <div class="review-box">
+                        <p>
+                            한끼를 먹어도 제대로!
+                            간편하고 맛있게 <q>허닭식단</q>하세요
+                        </p>
+                    </div>
+                    <div class="rvv">
+                        <img src="./img/imgimg.png" alt="대표 닭가슴살사진" class="inging">
+                        <div class="reviewboxmom">
+                            <div class="reviewbox1" data-aos="fade-right" data-aos-offset="300" data-aos-once="true">
+                                <div class="rvrn">
+                                    <img src="./img/kin.png" alt="허닭 이미지">
+                                </div>
+                                <p>남녀노소 어른 아이 <br>모두 너무 다 좋아해요!</p>
+                            </div>
+                            
+                            <div class="reviewbox2" data-aos="fade-right" data-aos-offset="300" data-aos-once="true">
+                                <div class="rvrn rvrn2">
+                                    <img src="./img/kin.png" alt="허닭 이미지">
+                                </div>
+                                <p>진짜 맛있었어요! <br>치킨도 대박! 파스타도 대박!!</p>
+                            </div>
+                
+                            <div class="reviewbox3" data-aos="fade-right" data-aos-offset="300" data-aos-once="true">
+                                <div class="rvrn">
+                                    <img src="./img/kin.png" alt="허닭 이미지">
+                                </div>
+                                <p>매운맛도 없고아이들이 <br>밥 한끼 뚝딱합니다!</p>
+                            </div>
+                            <div class="reviewbox4" data-aos="fade-left" data-aos-offset="300" data-aos-once="true">
+                                <div class="rvrn rvrn2">
+                                    <img src="./img/kin.png" alt="허닭 이미지">
+                                </div>
+                                <p>치킨이 자극적이지 않아서<br>애들 먹이기 너무 좋아요.</p>
+                            </div>
+                            <div class="reviewbox5" data-aos="fade-left" data-aos-offset="300" data-aos-once="true">
+                                <div class="rvrn">
+                                    <img src="./img/kin.png" alt="허닭 이미지">
+                                </div>
+                                <p>쉽게, 빠르게, 맛있게<br>그게 다 가능해서 좋아요!</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="review-mom swiper-wrapper">
+                        <div class="swiper-slide rv-slide reviewimg1"></div>
+                        <div class="swiper-slide rv-slide reviewimg2"></div>
+                        <div class="swiper-slide rv-slide reviewimg3"></div>
+                        <div class="swiper-slide rv-slide reviewimg4"></div>
+                        <div class="swiper-slide rv-slide reviewimg5"></div>
+                        <div class="swiper-slide rv-slide reviewimg6"></div>
+                        <div class="swiper-slide rv-slide reviewimg7"></div>
+                        <div class="swiper-slide rv-slide reviewimg8"></div>
+                        <div class="swiper-slide rv-slide reviewimg9"></div>
+                    </div>
+                </div>
+                <!-- 허닭 주요 서비스 -->
+                <div class="kcal">
+                    <div class="inner4">
+                        <div class="tt">
+                            <h2>허닭 주요 서비스</h2>
+                            <p>삶을 더 풍요롭고 건강하게 만들어줄 친환경 라이프 서비스를 경험하세요.</p>
+                        </div>
+                        <div class="kcalmom">
+                            <div>
+                                <img src="./img/img1.png" alt="무로배송 이미지">
+                                <p>무료배송</p>
+                            </div>
+                            <div>
+                                <img src="./img/img2.png" alt="허닭레시피 이미지">
+                                <p>허닭레시피</p>
+                            </div>
+                            <div>
+                                <img src="./img/img3.png" alt="신규회원혜택 이미지">
+                                <p>신규회원혜택</p>
+                            </div>
+                            <div>
+                                <img src="./img/img4.png" alt="품질관리센터 이미지">
+                                <p>품질관리센터</p>
+                            </div>
+                            <div>
+                                <img src="./img/img5.png" alt="허닭멤버스 이미지">
+                                <p>허닭멤버스</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 허닭 커뮤니티 -->
+                <div class="event">
+                    <div>
+                        <div class="sns">
+                            <div>
+                                <p>허닭 커뮤니티</p>
+                                <p>영양소를 한끼에 맞춘 허닭!!<br>이벤트와 새로운신상을 소개합니다.</p>
+                                <div class="event-i">
+                                    <i class="fa-brands fa-facebook"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-youtube"></i>
+                                    <i class="fa-solid fa-comment"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-mv">
+                            <div class="swiper mysw19">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide mv mvimg1">
+                                        <img src="./img/KakaoTalk_20241123_171634746.png" alt="허닭 인스타로 연결되어 있는 이미지들">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="play">
+                                <iframe width="255" height="500" src="https://www.youtube.com/embed/XE3zBOjXP0M?si=EC5XOhy40PryN6oe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                            
+                            <div class="event-3 eve">
+                                <a href="http://www.heodak.com/shop/plan.html?plan_id=348" target="_blank">
+                                    <img src="./img/contents3.png" alt="허닭커뮤니티 이미지">
+                                </a>
+                            </div>
+                            <div class="event-4 eve">
+                                <a href="https://www.heodak.com/board/board.html?code=heodak_board1&page=1&type=v&board_cate=&num1=999337&num2=00000&number=474&lock=N&flag=notice" target="_blank">
+                                    <img src="./img/contents.png" alt="허닭커뮤니티 이미지">
+                                </a>
+                            </div>
+                            <div class="event-5 eve">
+                                <a href="http://www.heodak.com/shop/plan.html?plan_id=2661" target="_blank">
+                                    <img src="./img/contents5.png" alt="허닭커뮤니티 이미지">
+                                </a>
+                            </div>
+                            <div class="event-6 eve">
+                                <a href="#">
+                                    <img src="./img/contents2.png" alt="허닭커뮤니티 이미지">
+                                </a>
+                            </div>
+                            <div class="event-7 eve">
+                                <a href="#">
+                                    <img src="./img/contents6.png" alt="허닭커뮤니티 이미지">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer_inner">
+                <div class="foot1">
+                    <img src="./img/ico_logo.png" alt="허닭 하단로고">
+                    <p>주식회사 허닭 대표 김주형</p>
+                    <p>고객센터:1661-1355<br>평일 : 10 ~ 17시 (주말/공휴일 제외)
+                        점심시간 : 12 ~ 13시</p>
+                    <a href="#">1:1 문의</a>
+                    <a href="#">톡톡 채팅상담</a>
+                </div>
+                <div class="foot2" >
+                    <p>사업자 등록번호:220-86-74148</p> 
+                    <p>본점: 서울특별시 강남구 광평로 280, 1001호,1002호(수서동)</p>
+                    <p>E-meil: swngmls3571@naver.com</p>
+                    <a href="#">홈 | 공지사항 | 이용약관 | 개인정보 처리방침 | 이용안내제휴/입점문의</a>
+                    
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+
+    
+    <script>
+        $('.mm22').css('left','100%');
+        $('.fa-bars').click(function(){
+            $('.mm22').show();
+            $('.mm22').css('left','0');
+            $('body').css('overflow','hidden');
+        })
+        $('.fa-xmark').click(function(){
+            $('.mm22').css('left','100%');
+            $('body').css('overflow','visible');
+        })
+    
+    
+        $(window).scroll(function(){
+            var window1 = $(this).scrollTop();
+            console.log(window1);
+            if(window1>140){
+                $('.mm1').addClass('fixed');
+            }else {
+                $('.mm1').removeClass('fixed');
+            }
+            
+        })
+    
+    
+    
+        // 검색어를 입력할때 초기화 자바스크립트
+        btnsch1.onclick=function(){
+            btnbox1.value = null;
+        }
+        // 모바일 버전
+        btnsch11.onclick=function(){
+            btnbox11.value = null;
+        }
+        
+    
+        
+        // 메뉴와 서브메뉴
+        $('.menumom>li').mouseenter(function(){
+            $('.sbmenu').stop().slideDown();
+        })
+        $('.menumom>li').mouseleave(function(){
+            $('.sbmenu').stop().slideUp();
+        })
+    
+    
+    
+        AOS.init();
+    
+        // 스와이퍼슬라이드
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+            el: ".swiper-pagination",
+            dynamicBullets: true,
+          },
+          loop: true,
+            autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+    </script>
+
+    <script>
+        // 오늘의 타임딜부분
+        var swiper = new Swiper(".mysw10", {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: '.btnr3',
+            prevEl:'.btnl3',
+          },
+          breakpoints: {
+            300: {
+                slidesPerView: 3,
+                spaceBetween: 10,
+            },
+            600: {
+                slidesPerView: 4,
+                spaceBetween: 15,
+            },
+            820: {
+                slidesPerView: 4,
+                spaceBetween: 15,
+            },
+            1000: {
+                slidesPerView: 4,
+                spaceBetween: 15,
+            },
+            1300: {
+                slidesPerView: 4,
+                spaceBetween: 15,
+            },
+          },
+        });
+    
+        // 바구니
+        $('.imgcove').mouseenter(function(){
+            $(this).find('.sing').stop().css('transform','translateY(-70px)');
+        })
+        
+        $('.imgcove').mouseleave(function(){
+            $(this).find('.sing').stop().css('transform','translateY(0)');
+        })
+        
+    
+    
+    </script>
+    
+    <!-- 베스트 상품slide부분 -->
+    <script>
+        $('.sm2').click(function(){
+            $('.Mysw14').show();
+
+            $('.Mysw13').hide();
+            $('.Mysw15').hide();
+            $('.Mysw16').hide();
+            $('.Mysw17').hide();
+        })
+        $('.sm1').click(function(){
+            $('.Mysw14').hide();
+            $('.Mysw13').show();
+            $('.Mysw15').hide();
+            $('.Mysw16').hide();
+            $('.Mysw17').hide();
+        })
+        $('.sm3').click(function(){
+            $('.Mysw14').hide();
+            $('.Mysw13').hide();
+            $('.Mysw15').show();
+            $('.Mysw16').hide();
+            $('.Mysw17').hide();
+        })
+        $('.sm4').click(function(){
+            $('.Mysw14').hide();
+            $('.Mysw13').hide();
+            $('.Mysw15').hide();
+            $('.Mysw16').show();
+            $('.Mysw17').hide();
+        })
+        $('.sm5').click(function(){
+            $('.Mysw14').hide();
+            $('.Mysw13').hide();
+            $('.Mysw15').hide();
+            $('.Mysw16').hide();
+            $('.Mysw17').show();
+        })
+        
+        $('.sw13cove').mouseenter(function(){
+            $(this).find('.sing').stop().css('transform','translateY(-70px)');
+        })
+        $('.sw13cove').mouseleave(function(){
+            $(this).find('.sing').stop().css('transform','translateY(0px)');
+        })
+            
+        var swiper = new Swiper(".Mysw13", {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: '.btnr4',
+            prevEl:'.btnl4',
+          },
+          breakpoints: {
+            300: {
+                slidesPerView: 3,
+                spaceBetween: 10,
+            },
+            600: {
+                slidesPerView: 4,
+                spaceBetween: 15,
+            },
+            820: {
+                slidesPerView: 4,
+                spaceBetween: 15,
+            },
+            1000: {
+                slidesPerView: 4,
+                spaceBetween: 15,
+            },
+            1026: {
+                slidesPerView: 4,
+                spaceBetween: 15,
+            },
+          },
+        });
+    
+        var swiper = new Swiper(".Mysw14", {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: '.btnr6',
+            prevEl:'.btnl6',
+          },
+          breakpoints: {
+            300: {
+                slidesPerView: 3,
+                spaceBetween: 10,
+            },
+            600: {
+                slidesPerView: 4,
+                spaceBetween: 15,
+            },
+            700: {
+                slidesPerView: 4,
+                spaceBetween: 15,
+            },
+            1000: {
+                slidesPerView: 4,
+                spaceBetween: 15,
+            },
+            1026: {
+                slidesPerView: 4,
+                spaceBetween: 15,
+            },
+          },
+        });
+    
+        var swiper = new Swiper(".Mysw15", {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: '.btnr7',
+            prevEl:'.btnl7',
+          },
+          breakpoints: {
+            300: {
+                slidesPerView: 3,
+                spaceBetween: 10,
+            },
+            600: {
+                slidesPerView: 4,
+                spaceBetween: 15,
+            },
+            700: {
+                slidesPerView: 4,
+                spaceBetween: 15,
+            },
+            1000: {
+                slidesPerView: 4,
+                spaceBetween: 30,
+            },
+            1026: {
+                slidesPerView: 4,
+                spaceBetween: 20,
+            },
+          },
+        });
+    
+        var swiper = new Swiper(".Mysw16", {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: '.btnr8',
+            prevEl:'.btnl8',
+          },
+          breakpoints: {
+            300: {
+                slidesPerView: 3,
+                spaceBetween: 10,
+            },
+            600: {
+                slidesPerView: 4,
+                spaceBetween: 15,
+            },
+            700: {
+                slidesPerView: 4,
+                spaceBetween: 15,
+            },
+            1000: {
+                slidesPerView: 4,
+                spaceBetween: 15,
+            },
+            1026: {
+                slidesPerView: 4,
+                spaceBetween: 15,
+            },
+          },
+        });
+    
+        var swiper = new Swiper(".Mysw17", {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: '.btnr9',
+            prevEl:'.btnl9',
+          },
+          breakpoints: {
+            300: {
+                slidesPerView: 3,
+                spaceBetween: 10,
+            },
+            600: {
+                slidesPerView: 4,
+                spaceBetween: 15,
+            },
+            700: {
+                slidesPerView: 4,
+                spaceBetween: 15,
+            },
+            1000: {
+                slidesPerView: 4,
+                spaceBetween: 15,
+            },
+            1026: {
+                slidesPerView: 4,
+                spaceBetween: 15,
+            },
+          },
+        });
+    </script>
+
+    <script>
+        // 리뷰스와이퍼 슬라이드
+        var swiper = new Swiper(".Mysw18", {
+          slidesPerView: 'auto',
+          spaceBetween: 30,
+          freeMode: true,
+          loop: true,
+          loopAdditionalSlides : 1,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          breakpoints: {
+            300: {
+                slidesPerView: 3,
+                spaceBetween: 10,
+            },
+            600: {
+                slidesPerView: 3,
+                spaceBetween: 15,
+            },
+            1000: {
+                slidesPerView: 4,
+                spaceBetween: 15,
+            },
+          },
+          
+        });
+    
+    
+    
+        $('.rvbox1').scroll(function(){
+            $(this).css('tranform','translateX(-50px)');
+            
+        })
+    </script>
+
+    <script>
+        // a태그 클릭시에 적용안되게..
+        $("a").click(function(){
+            if($(this).attr("href")=="#") {
+                return false;
+            }
+        });
+
+        AOS.init({
+            duration: 1200,
+        })
+    </script>
+</body>
+</html>

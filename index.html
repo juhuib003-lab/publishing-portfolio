@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 포튼어썸아이콘 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- 구글폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Gothic+A1&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Do+Hyeon&family=Gothic+A1&family=Hahmlet:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Do+Hyeon&family=Gothic+A1&family=Hahmlet:wght@100..900&family=Nanum+Pen+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Serif+KR:wght@200..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Sunflower:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+
+    <!-- xeicon링크 -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/popl.css">
+    <title>호시담</title>
+</head>
+<body>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- JQ -->
+    <script src="./js/jquery-3.7.1.min.js"></script>
+
+    <!-- 상단슬라이드와 메뉴바 -->
+     
+    <div id="wrap">
+        <header>
+            <nav>
+                <div class="swbg"></div>
+                <div class="slide-font">
+                    <div class="pc-menubar">
+                        <div class="topimg">
+                            <img src="./img/top-marrr.png" alt="로고 이미지">
+                            <P class="hos">H O S I D A M</P>
+                            <P>VILLA</P>
+                        </div>
+                        <ul class="menu2">
+                            <li><a href="#home">Hosidam(호시담)</a></li>
+                            <li><a href="#room">Room(방)</a></li>
+                            <li><a href="#cafe">Cafe(카페)</a></li>
+                            <li><a href="#reser">Reservation(예약)</a></li>
+                            <li><a href="#special">Special(공간)</a></li>
+                        </ul>
+                    </div>
+                    <div class="leftbg">
+                        <div class="text2">
+                            <h3>HOSIDAM</h3>
+                            <h2>휴식과 함께 새로운 감성을 채워주는 곳, 호시담</h2>
+                            <p>
+                                소중한 사람들과 함께하는 <br>
+                                따뜻한 하루의 시작, 샤이닝스테이
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <i class="fa-solid fa-bars"></i>
+                <div class="mo-menubar">
+                    <h2>MENU</h2>
+                    <hr>
+                    <ul class="menu3">
+                        <li>
+                            <a href="#"  class="mumom">HOSIDAM</a>
+                            <ul class="sbmu">
+                                <li>
+                                    <a href="#" class="sid">호시담</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="#"  class="mumom">ROOM</a>
+                            <ul class="sbmu">
+                                <li>
+                                    <a href="#" class="sid">H101</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sid">H102</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sid">S201</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sid">S202</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sid">D301</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sid">D302</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <hr>
+                        <li><a href="#" class="mumom muu">CAFE</a></li>
+                        <hr>
+                        <li>
+                            <a href="#"  class="mumom">RESERVATION</a>
+                            <ul class="sbmu">
+                                <li>
+                                    <a href="#" class="sid">예약안내</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sid">실시간예약</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <hr>
+                        <li><a href="#" class="mumom muu">SPECIAL</a></li>
+                        <hr>
+                    </ul>
+                </div>
+            </nav>
+            <!-- 슬라이드 -->
+            <div class="swiper mySw11">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide s1"></div>
+                    <div class="swiper-slide s2"></div>
+                    <div class="swiper-slide s3"></div>
+                    <div class="swiper-slide s4"></div>
+                </div>
+            </div>
+        </header>
+        <div class="content">
+            <!-- 호시담 -->
+            <section id="home">
+                <div class="home22">
+                    <div class="rive">
+                        <img src="./img/marrr.png" alt="호시담 마크">
+                        <h2>HOSIDAM</h2>
+                        <p class="hom">
+                            <span>4계절이 만들어내는 풍경을 담아내는 공간</span>
+                        </p>
+                    </div>
+                    <div class="swiper mySw20 sw20">
+                        <div class="swiper-wrapper swslide">
+                            <div class="swiper-slide sw1">
+                                <img src="./img/homeimg3-9.jpeg">
+                            </div>
+                            <div class="swiper-slide sw1">
+                                <img src="./img/homeimg3-4.jpg">
+                            </div>
+                            <div class="swiper-slide sw1">
+                                <img src="./img/homeimg3-8.png">
+                            </div>
+                            <div class="swiper-slide sw1">
+                                <img src="./img/homeimg3-10.jpg">
+                            </div>
+                            <div class="swiper-slide sw1">
+                                <img src="./img/homeimg3-6.png">
+                            </div>
+                            <div class="swiper-slide sw1">
+                                <img src="./img/homeimg3-7.png">
+                            </div>
+                        </div>
+                        <div class="swiper-button-next btn11 btnN1"></div>
+                        <div class="swiper-button-prev btn11 btnP1"></div>
+                    </div>
+                    <div class="homebett">
+                        <p>
+                            호시담은 좋을 호(好), 때 시(時) 라는 뜻을 가지고 있습니다.
+                            <br>
+                            저희 호시담에서 지내는 잠시의 시간이 당신에게 별처럼 빛나는 좋은 순간이 되었으면 좋겠습니다.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- 여백칸1 -->
+            <div class="blank"></div>
+            <!-- room -->
+            <section id="room">
+                <div class="roommom">
+                    <div class="rive">
+                        <img src="./img/marrr.png" alt="호시담 마크">
+                        <h2>BEDDING</h2>
+                        <p class="ro">편안한 휴식</p>
+                    </div>
+                    <div class="swiper mySw21">
+                        <div class="swiper-wrapper my21">
+                            <div class="swiper-slide roon">
+                                <img src="./img/room5.jpg" alt="호시담 room">
+                            </div>
+                            <div class="swiper-slide roon">
+                                <img src="./img/room2.jpg" alt="호시담 room">
+                            </div>
+                            <div class="swiper-slide roon">
+                                <img src="./img/room1.jpg" alt="호시담 room">
+                            </div>
+                            <div class="swiper-slide roon">
+                                <img src="./img/room4.jpg" alt="호시담 room">
+                            </div>
+                            <div class="swiper-slide roon">
+                                <img src="./img/room3.jpg" alt="호시담 room">
+                            </div>
+                        </div>
+                        <div class="roonbg">
+                            <div>
+                                <h1>Rooms</h1>
+                                <div class="swiper-button-next n21"></div>
+                                <div class="swiper-button-prev p21"></div>
+                            </div>
+                            <div class="room-cove">
+                                <h3>THE BLUE SKY HOME</h3>
+                                <span>스탠다드 / 욕실1 / 객실1 / 주방 / 야외자쿠지</span>
+                                <hr>
+                            </div>
+                            <div class="roomfont">
+                                <p>
+                                    고요한 저녁 공기가 돌 때 포근한 이불속에서 아늑한 휴식이 되길 바라는 마음으로
+                                    헝가리산 거위 가슴 솜털(90%)만을 사용하여 아주 가볍고 따뜻한 구스다운 침구를 준비했습니다.
+                                </p>
+                                <a href="#"><i class="fa-solid fa-angles-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 여백칸2 -->
+            <div class="blank1"></div>
+            <!-- 영상 -->
+            <section class="move">
+                <div class="youtube">
+                <p>휴식과 함께 새로운 감성을 채워주는 곳 <br>
+                    <span>
+                        <br>
+                        HAY WH , GUS ,OX DE, 오리지널 스칸다비아 빈티지가구와 디자인 소품들을 즐길수 있습니다.
+                        <br>
+                        공간들마다 다양한 팬던트 조명들은 Street, &Tradition, Normann Copenhagen 오리지널 브랜드입니다. <br>
+                        무엇보다 호시담이라는 공간과 가장 자연스럽게 어울리는 가구와 소품들을 고르기 위해 노력했습니다.
+                    </span>
+                </p>
+                <iframe width="1000" height="600" src="https://www.youtube.com/embed/JS7EnMQSF9s?si=cXMD34SJgawfPvg9&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="youtu"></iframe>
+                <a href="#" class="viewmorebox">view more</a>
+                </div>
+            </section>
+            <!-- 여백칸3 -->
+            <div class="blank"></div>
+            <!-- 카페 -->
+            <section id="cafe">
+                <div class="cafemom">
+                    <div class="rive2">
+                        <img src="./img/marrr.png" alt="호시담 마크">
+                        <h2>CAFE</h2>
+                    </div>
+                    <div class="cafemm">
+                        <div class="cafe-font">
+                            <div class="cafe-inner">
+                                <div class="cafe-fonbox1">
+                                    <p>계절이 내려 앉는 곳 <br><span>HOSIDAM BRUNCH</span></p>
+                                    <p>
+                                        호시담의 마당은 자연을 가장 가까이에서 온몸으로 느끼게 합니다. <br>
+                                        cafe에서는 파릇한 잔디가 펼쳐진 마당이 한눈에 보이며 탁트인 담양의 산과 하늘을 감상하기 좋은 장소입니다. <br>
+                                        멀리보이는 무등산과 추월산의 풍경은 계절의 아름다움을 순간순간 느낄수가 있습니다. <br>
+                                        바쁜도시의 삶을 잠시멈추고, 느슨하게 마음을 다독일수 있는 공간이 될수있도록
+                                        어느것하나 소홀함없이 정성을 다했습니다.
+                                    </p>
+                                </div>
+                                <div class="cafe-fonbox2">
+                                    <p>호시담 실시간 예약 및 공지사항 <br><span>Hoshidam real-time reservations and announcements</span></p>
+                                    <div class="olli">
+                                        <ol>
+                                            <li>
+                                                애완동물과 함께 입실시, 추가인원 이상 입실시, 입실이 불가능하며 예약취소와 동일하게 처리가 됩니다. <br> 유아를 포함한 추가인원은 예약시 명시해야 합니다. (조용한 휴식을 원하시는 분이 대부분이라 지인방문이나 바베큐초대를 금하고 있으니 양해 바랍니다.)
+                                            </li>
+                                            <li>
+                                                객실의 모든 시설물과 주방 비품은 깨끗이 사용하여 주시고 부득히 훼손이나 파손이 되었을경우 변상하시게 됩니다. <br>시설들을 이용하시며 유아를 포함한 개인 안전관리에 각별히 유념해주시고 본인 부주의에 의한 안전사고는 본인이 책임지게 됩니다.   <br><a href="#">더 자세히 보기....</a>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                    <a href="#" class="right15">실시간 예약 <i class="fa-solid fa-caret-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cafe-img">
+                            <img src="./img/cafe_fontimg4.jpg" alt="카페 이미지">
+                        </div>
+                    </div>  
+                </div>
+            </section>
+            <!-- 블로그 탐방 -->
+            <section id="special">
+                <div class="specmom">
+                <marquee direction="right">Hoshi Dam Villa • Hoshi Dam Space • True relaxation in nature</marquee>
+                <div class="special-box">
+                    <div class="special-fon">
+                        <p><span>호시담 스페이스</span> <br>HOSIDAM SPACE</p>
+                        <p class="spfon">
+                            호시담은 풀과 나무가 어우러진 풍경이 제일 먼저 눈에 들어오는 곳입니다. 시원한 바람,
+                            무등산과 추월산으로 둘러쌓인 호시담은 계절이 만드는 풍경을 자연스럽게 담았습니다. 고요한 자연 속에 머무르고 싶은 당신만의 진정한 휴식공간입니다.
+                        </p>
+                        <a href="#" class="spbox1">
+                            <p>블로그 보러가기<i class="fa-solid fa-caret-right"></i></p>
+                        </a>
+                    </div>
+                    <div class="swiper mySw22">
+                        <div class="swiper-wrapper myside">
+                        <div class="swiper-slide spsi">
+                            <img src="./img/spimg1.jpg" alt="특별한 호시담이미지">
+                        </div>
+                        <div class="swiper-slide spsi">
+                            <img src="./img/spimg2.jpg" alt="특별한 호시담이미지">
+                        </div>
+                        <div class="swiper-slide spsi">
+                            <img src="./img/spimg3.jpg" alt="특별한 호시담이미지">
+                        </div>
+                        <div class="swiper-slide spsi">
+                            <img src="./img/spimg4.jpg" alt="특별한 호시담이미지">
+                        </div>
+                        <div class="swiper-slide spsi">
+                            <img src="./img/spimg5.jpg" alt="특별한 호시담이미지">
+                        </div>
+                        <div class="swiper-slide spsi">
+                            <img src="./img/spimg6.jpg" alt="특별한 호시담이미지">
+                        </div>
+                        <div class="swiper-slide spsi">
+                            <img src="./img/spimg7.jpg" alt="특별한 호시담이미지">
+                        </div>
+                        <div class="swiper-slide spsi">
+                            <img src="./img/spimg8.jpg" alt="특별한 호시담이미지">
+                        </div>
+                        </div>
+                        <div class="pagination_container">
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-pagination2"></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+        </div>
+        <!-- 하단메뉴 -->
+        <footer>
+            <section class="footrmom">
+                <div class="inner">
+                    <img src="./img/top-marrr.png" alt="호시담 마크">
+                    <h1>Hoshi Dam</h1>
+                    <p>
+                        대표상호  호시담 / 전남 담양군 용면 추령로 375-25 / 대표  강미진 / 대표전화  010-7211-9880
+                        사업자등록번호  756-30-00100 <br>
+                        상호  호시담 / 사업자등록번호  756-30-00100 / 대표  강미진 / 전남 담양군 용면 추령로 375-25 / 객실명  H101, H102 <br>
+                        <br>
+                        상호  멈추고돌아보는곳 / 사업자등록번호  660-25-00144 / 대표  최승훈 / 전남 담양군 용면 추령로 375-23 / 객실명  S201, S202 <br>
+                        상호  별집 / 사업자등록번호  475-26-00112 / 대표  최정님 / 전남 담양군 용면 추령로 375-23 / 객실명  D301, D302
+                    </p>
+                </div>
+                <div class="foorico">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-solid fa-comment"></i>
+                </div>
+            </section>
+        </footer>
+    </div>
+    
+
+
+
+
+
+    
+
+    <script>
+
+        $('.fa-bars').click(function(){
+            $('.mo-menubar').css('right','0%');
+            $('.swbg').show();
+            $('body').stop().css('overflow','hidden');
+        })
+        $('.swbg').click(function(){
+            $('.mo-menubar').css('right','-100%');
+            $('.swbg').hide();
+            $('body').stop().css('overflow','visible');
+        })
+
+    </script>
+
+    <script>
+        // 스와이퍼 스크립트
+        var swiper = new Swiper(".mySw11", {
+            spaceBetween: 30,
+            effect: "fade",
+            loop: true,
+            speed: 1000,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
+
+    
+
+    <script>
+        var swiper = new Swiper(".mySw20", {
+            slidesPerView: '3',
+            centeredSlides: true,
+            grabCursor: true,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                300: {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                800: {
+                    slidesPerView: 3,
+                    spaceBetween: 35,
+                },
+                1000: {
+                    slidesPerView: 3,
+                    spaceBetween: 35,
+                },
+            },
+        });
+
+        function getDirection() {
+        var windowWidth = window.innerWidth;
+        var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+
+        return direction;
+        }
+    </script>
+
+    
+
+    
+    <script>
+        var swiper = new Swiper(".mySw21", {
+            navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+        });
+    </script>
+
+
+
+    <script>
+        var swiper = new Swiper(".mySw22", {
+            slidesPerView: 3,
+                spaceBetween: 30,
+                autoplay: {
+                    delay: 2000,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    type: "fraction",
+                },
+                
+                loop:true,
+                breakpoints: {
+                300: {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                },
+                1000: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },
+            }
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+    <script>
+        // a태그 클릭시에 적용안되게..
+        $("a").click(function(){
+            if($(this).attr("href")=="#") {
+                return false;
+            }
+        });
+
+        AOS.init();
+    </script>
+</body>
+</html>
